@@ -8,7 +8,7 @@ This repository contains a **deliberately minimal** demonstration of the VOR-CER
 
 - Ed25519 keypair generation for issuer identity
 - SHA-256 payload binding
-- Mandatory epistemic claim typing (`fact`, `inference`, `forecast`, `opinion`, `self-assessment`)
+- Mandatory epistemic claim typing (`fact`, `inference`, `forecast`, `opinion`, `self_assessment`)
 - Cryptographic signing of canonical manifests (signed body separated from mutable state)
 - Independent verification: signature, payload integrity, and claim structure
 - Honest reporting of limitations (no false "verified" when verification is incomplete)
